@@ -9,11 +9,6 @@ const Navbar = () => {
         <Link to="/">
           <img src={logo} alt="logo" className="logo" />
         </Link>
-        <ul className="nav-links">
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-        </ul>
       </div>
     </nav>
   );
